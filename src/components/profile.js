@@ -68,15 +68,9 @@ function profile() {
               color="#ADD8E6"
               style={{ fontSize: "20px" }}
             >
-              <p>Mobile Number: 9036406846</p>
+              <p>Mobile Number: 9036406836</p>
             </Typography>
-            <Typography
-              variant="body2"
-              color="#ADD8E6"
-              style={{ fontSize: "20px" }}
-            >
-              <p>Resume: 9036406846</p>
-            </Typography>
+           
           </CardContent>
         </Card>
       </div>
