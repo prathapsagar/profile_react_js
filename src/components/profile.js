@@ -1,11 +1,13 @@
 import React from 'react'
 import Card from "@mui/material/Card";
+import EmailIcon from "@mui/icons-material/Email";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import profile_image from "../assets/profile_image.svg";
+import CallIcon from "@mui/icons-material/Call";
 
 
 function profile() {
@@ -61,14 +63,14 @@ function profile() {
               color="#ADD8E6"
               style={{ fontSize: "20px" }}
             >
-              <p>Email: prathapsagar0306@gmail.com</p>
+              <p><EmailIcon/>: prathapsagar0306@gmail.com</p>
             </Typography>
             <Typography
               variant="body2"
               color="#ADD8E6"
               style={{ fontSize: "20px" }}
             >
-              <p>Mobile Number: 9036406836</p>
+              <p><CallIcon />: 9036406836</p>
             </Typography>
            
           </CardContent>
