@@ -6,7 +6,6 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import profile_image from "../assets/dev_img.jpg";
 import CallIcon from "@mui/icons-material/Call";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 
