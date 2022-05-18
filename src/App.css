@@ -4,7 +4,7 @@
 
 body, html {
   height: 100%;
-  background-color: #002244;
+  background-color: #0C1C2C;
   background-size: 100% 100%;
 
 }
@@ -14,17 +14,17 @@ body, html {
 
   text-align: center;
   border-radius: 10px 10px 10px 10px;
-  margin-right: 1%;
-  margin-left: 1%;
+  margin-right: 3%;
+  margin-left: 5%;
   margin-bottom: 2%;
-  width: 47%;
+  width: 40%;
   float: left;
   height: 60%;
   background-color: #c5d5cb;
-  border: 0.5px solid #ADD8E6;
+  border: 0.5px solid #64FFDA;
   font-family: 'Allerta Stencil';
   font-size: 18px;
-  color: #AAF0D1;
+  color: #64FFDA;
 
 
 }
@@ -35,16 +35,15 @@ body, html {
   width: 30%;
   text-align: center;
   border-radius: 10px 10px 10px 10px;
-
   margin-left: 12%;
-
+  height:50px;
   margin-bottom: 2%;
   float: left;
-  background-color: #4682B4;
-  border: 1px solid #ADD8E6;
+  background-color: #0C1C2C;
+  border: 1px solid #64FFDA;
   font-family: 'Allerta Stencil';
   font-size: 18px;
-  color: black;
+  color: #64FFDA;
 }
 
 .all_wrapper {
@@ -61,8 +60,21 @@ body, html {
   width: 60%;
   margin-top: 2%;
   margin-bottom: 2%;
-  color: #ADD8E6;
+  color: #64FFDA;
   margin-left: 8%;
+  float: left;
+  word-wrap: break-word;
+
+
+
+
+}
+
+.profile_style1 {
+  margin-bottom: 2%;
+  color: #64FFDA;
+  margin-left: 15%;
+  margin-right: 8%;
   float: left;
   word-wrap: break-word;
 
