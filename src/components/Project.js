@@ -10,6 +10,7 @@ import food_app from "../assets/Food_app.png";
 import questions_forum from "../assets/questions_forum.png";
 import student_mentor from "../assets/Student_mentor.png";
 import video_stream from "../assets/Video_Streaming_App.png";
+import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 
 function Project() {
   const data = [
@@ -48,7 +49,7 @@ function Project() {
           color: "#ADD8E6",
         }}
       >
-        Projects:
+        Somethings I've Built:
       </h1>
 
       {data.map((e, i) => {
@@ -61,7 +62,7 @@ function Project() {
                 image={e.image}
                 alt="green iguana"
               />
-              <CardContent style={{ backgroundColor: "#002244" }}>
+              <CardContent style={{ backgroundColor: "#0C1C2C" }}>
                 <Typography
                   gutterBottom
                   variant="h5"
@@ -70,20 +71,19 @@ function Project() {
                 >
                   {e.name}
                 </Typography>
-                <Typography variant="body2" color="#ADD8E6">
+                <Typography variant="body2" color="#64FFDA">
                   {e.desc}
                 </Typography>
                 <Typography
-                  style={{ backgroundColor: "white", textAlign: "center" }}
+                  style={{ backgroundColor: "#0C1C2C", textAlign: "center" }}
                 >
-                  <a
-                    target="_blank"
-                    href={e.url}
-                  >
-                    <Button style={{ color: "#002244" }} size="small">
-                      Visit Website
+                  <div style={{ backgroundColor: "#0C1C2C",color: "#ADD8E6" }} > Visit Website:
+                  <a target="_blank" href={e.url}>
+                    <Button style={{ backgroundColor: "#0C1C2C",color: "#ADD8E6" }} size="small">
+                        <OpenInNewIcon/>
                     </Button>
                   </a>
+                  </div>
                 </Typography>
               </CardContent>
             </Card>
