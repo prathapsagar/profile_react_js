@@ -18,7 +18,7 @@ function navbar() {
     <div>
       <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static">
-          <Toolbar style={{ backgroundColor: "#0039a6" }}>
+          <Toolbar style={{ backgroundColor: "#0C1C2C" }}>
             <IconButton
               size="large"
               edge="start"
@@ -32,8 +32,8 @@ function navbar() {
             <Link to="projects">
               <Button
                 style={{
-                  backgroundColor: "black",
-                  color: "grey",
+                  backgroundColor: "#0C1C2C",
+                  color: "#64FFDA",
                   fontSize: "10px",
                 }}
               >
@@ -41,7 +41,7 @@ function navbar() {
               </Button>
             </Link>
             <Link to="/">
-              <Button style={{ color: "black" }}>
+              <Button style={{ color: "#64FFDA" }}>
                 <div>
                   <HomeIcon />
                 </div>
@@ -53,8 +53,8 @@ function navbar() {
             >
               <Button
                 style={{
-                  backgroundColor: "black",
-                  color: "grey",
+                  backgroundColor: "0C1C2C",
+                  color: "#64FFDA",
                   fontSize: "10px",
                 }}
               >
@@ -65,14 +65,14 @@ function navbar() {
               target="_blank"
               href="https://www.linkedin.com/in/prathap-sagar-493a95152/"
             >
-              <Button style={{ color: "black" }}>
+              <Button style={{ color: "#64FFDA" }}>
                 <div>
                   <LinkedInIcon />
                 </div>
               </Button>
             </a>
             <a target="_blank" href="https://github.com/prathapsagar">
-              <Button style={{ color: "black" }}>
+              <Button style={{ color: "#64FFDA" }}>
                 <div>
                   <GitHubIcon />
                 </div>
